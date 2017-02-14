@@ -35,6 +35,7 @@ $ sudo make install
 
 ### Install 4x4x4 solver
 ```
+$ sudo apt-get install default-jre openjdk-7-jdk
 $ cd ~/rubiks-cube-solvers/4x4x4/TPR-4x4x4-Solver/
 $ ./make.sh
 $ java -cp .:threephase.jar:twophase.jar solver UUURUUUFUUUFUUUFRRRBRRRBRRRBRRRBRRRDFFFDFFFDFFFDDDDBDDDBDDDBDDDLFFFFLLLLLLLLLLLLULLLUBBBUBBBUBBB
@@ -46,6 +47,7 @@ prune tables.  Creating these prune tables will take a while (more than
 30 minutes) but you only have to do this once.
 
 ```
+$ sudo apt-get install default-jre openjdk-7-jdk
 $ cd ~/rubiks-cube-solvers/5x5x5/
 $ java -cp bin -Xmx8g justsomerandompackagename.reducer LLBUULLBUUDUUDDLLLBBLLURRDDUUBDDUUBDDDFFDDFBBDDFBBFLRBBFLRBBBBRDDDDLRRDDLRRFFLFFRRLDDRRLBBRRBRRRRBRRUULUUFFLUUUUFRRBBFFLBBFFLLLLDDLLDFFFFBUUUURFFUURFF```
 ```
